@@ -8,11 +8,11 @@ class TestUnconstrainedMin(unittest.TestCase):
     def setUp(self):
         self.functions = [
             ("Func1", func1, [-2, 2], [-2, 2]),
-            ("Func2", func2, [-5, 5], [-5, 5]),
-            ("Func3", func3, [-5, 5], [-5, 5]),
-            ("Rosenbrock", rosenbrock, [-5, 5], [-5, 5]),
+            ("Func2", func2, [-2, 2], [-2, 2]),
+            ("Func3", func3, [-2, 2], [-2, 2]),
+            ("Rosenbrock", rosenbrock, [-2, 2], [-1, 3]),
             ("Linear", linear, [0, 2], [0, 2]),
-            ("Func4", func4, [-5, 5], [-5, 5])
+            ("Sum of Exponentials", func4, [-2, 2], [-2, 2])
         ]
         self.methods = ["GD", "Newton"]
 
