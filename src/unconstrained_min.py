@@ -97,6 +97,7 @@ class LineSearch:
         return {
             'x': x,
             'f': self.obj_func(x)[0],
+            'iter': k,
             'success': success
         }
       
@@ -150,6 +151,7 @@ class LineSearch:
         return {
             'x': x,
             'f': self.obj_func(x)[0],
+            'iter': k,
             'success': success
         }
 
