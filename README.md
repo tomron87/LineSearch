@@ -21,8 +21,8 @@ This project implements and compares different line search optimization methods 
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
-cd [repository-name]
+git clone https://github.com/tomron87/LineSearch.git
+cd LineSearch
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -100,8 +100,3 @@ print(f"Convergence: {result['success']}")
 ├── requirements.txt
 └── README.md
 ```
-
-## Dependencies
-
-- numpy >= 1.24.0
-- matplotlib >= 3.7.0
